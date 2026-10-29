@@ -1,0 +1,29 @@
+{
+  "name": "daemon-seance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The haunted terminal possessed by the ghosts of computing past.",
+  "scripts": {
+    "dev": "next dev -p 1095",
+    "build": "next build",
+    "start": "next start -p 1095",
+    "lint": "next lint",
+    "test": "node --experimental-strip-types --test tests/seance.test.mjs"
+  },
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.46",
+    "autoprefixer": "^10.4.20",
+    "lucide-react": "^0.453.0",
+    "next": "^14.2.15",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}

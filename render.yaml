@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: daemon-seance
+    runtime: docker
+    plan: free
+    region: ohio
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 1095

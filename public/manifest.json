@@ -1,0 +1,17 @@
+{
+  "name": "DaemonSéance — Haunted Terminal of Computing Past",
+  "short_name": "DaemonSéance",
+  "description": "Commune with the ghosts of computing pioneers and forgotten languages in an airgapped CRT terminal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080C",
+  "theme_color": "#FFB000",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
